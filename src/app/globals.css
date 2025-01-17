@@ -2,20 +2,121 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+input,
+textarea {
+  outline-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+p {
+  text-wrap: pretty;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+  min-height: 80vh;
+  background-color: #878dff;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20vw), 0 100%);
+}
+
+.blob-shape {
+  border-radius: 30% 70% 70% 30% / 31% 42% 58% 69%;
+  background: url("../assets/image/blob-image.jpg");
+  border: 3px solid rgb(97, 88, 88);
+  width: 500px;
+  height: 500px;
+}
+
+.grid-columns {
+  width: min(90%, 90vw);
+  margin-inline: auto;
+  display: grid;
+  grid-template-areas:
+    "one one two three"
+    "one one four four"
+    "five six four four";
+  justify-content: center;
+  gap: 1.5rem;
+  /* padding: 2rem; */
+}
+
+.grid-columns > div:nth-child(1) {
+  grid-area: one;
+  padding: 1.3rem;
+}
+.grid-columns > div:nth-child(2) {
+  grid-area: two;
+}
+.grid-columns > div:nth-child(3) {
+  grid-area: three;
+}
+.grid-columns > div:nth-child(4) {
+  grid-area: four;
+}
+.grid-columns > div:nth-child(5) {
+  grid-area: five;
+}
+.grid-columns > div:nth-child(6) {
+  grid-area: six;
+}
+
+.grid-columns > * {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 12px;
+}
+
+@media (max-width: 900px) {
+  .grid-columns {
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six";
+  }
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+.service-card {
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: hsl(0, 3%, 13%);
+  top: -90;
+  z-index: -1;
+}
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 1rem;
+  padding-inline: 1rem;
+
+  @media (max-width: 640px) {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+.details-grid img:nth-child(3) {
+  grid-row: 2 / 4;
+}
+
+.details-grid img:nth-child(4) {
+  grid-row: 1 / 3;
 }
