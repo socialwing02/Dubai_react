@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "../ui/Button";
 import bgImg from "@/assets/image/blob-image.jpg";
 import Image from "next/image";
+import { Button } from "../ui/Button";
 
 export default function HomeHero() {
   return (
@@ -25,11 +25,7 @@ export default function HomeHero() {
         </div>
       </div>
 
-      <Image
-        src={bgImg}
-        alt=";"
-        className="w-[500px]  h-[500px] object-cover"
-      />
+      <Image src={bgImg} alt="" className="w-[500px]  h-[500px] object-cover" />
     </section>
   );
 }
