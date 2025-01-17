@@ -8,10 +8,10 @@ import CHB3 from "../../assets/image/food-image/burg.png";
 
 const Hotel = () => {
   return (
-    <div className="hotel ">
+    <div className="bg-[#74966F] ">
       {/* Main Section */}
-      <div className="hotel__container h-[800px]   bg-orange-700  mt-[100px] flex flex-col lg:flex-row justify-center items-center lg:items-start px-4 lg:px-0">
-        <div className="hotel__info mt-[100] lg:mt-21 rounded-lg shadow-md p-6 lg:p-8 bg-blue-950 text-white h-auto lg:h-[450px] z-10 w-full lg:w-[500px] mb-8 lg:mb-0 lg:mr-[-100px]">
+      <div className="hotel__container h-[800px]   bg-[#A6977B]  flex flex-col lg:flex-row justify-center items-center lg:items-start px-4 lg:px-0">
+        <div className="hotel__info mt-[100] lg:mt-21 rounded-lg shadow-md p-6 lg:p-8 bg-[#D7D9CC] text-black h-auto lg:h-[450px] z-10 w-full lg:w-[500px] mb-8 lg:mb-0 lg:mr-[-100px]">
           <h2 className="hotel__name text-xl lg:text-2xl mb-4">
             HEALTHY EATING
           </h2>
@@ -29,8 +29,8 @@ const Hotel = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="hotel__container flex flex-wrap justify-center gap-6 mt-[-40] px-4 lg:px-0">
-        <div className="hotel__image h-[250px] w-[250px] md:h-[300px] md:w-[300px] bg-slate-600 rounded-3xl overflow-hidden">
+      <div className="hotel__container flex flex-wrap justify-center gap-6 mt-[-90] px-4 lg:px-0">
+        <div className="hotel__image h-[250px] w-[250px] md:h-[300px] md:w-[300px] bg-[#D7D9CC] rounded-3xl overflow-hidden">
           <Image
             src={CHB}
             alt="Hotel 1"
@@ -38,7 +38,7 @@ const Hotel = () => {
           />
         </div>
 
-        <div className="hotel__image h-[250px] w-[250px] md:h-[300px] md:w-[300px] bg-slate-600 rounded-3xl overflow-hidden">
+        <div className="hotel__image h-[250px] w-[250px] md:h-[300px] md:w-[300px] bg-[#D7D9CC] rounded-3xl overflow-hidden">
           <Image
             src={CHB1}
             alt="Hotel 1"
@@ -46,7 +46,7 @@ const Hotel = () => {
           />
         </div>
 
-        <div className="hotel__image h-[250px] w-[250px] md:h-[300px] md:w-[300px] bg-slate-600 rounded-3xl overflow-hidden">
+        <div className="hotel__image h-[250px] w-[250px] md:h-[300px] md:w-[300px] bg-[#D7D9CC] rounded-3xl overflow-hidden">
           <Image
             src={CHB2}
             alt="Hotel 1"
@@ -54,7 +54,7 @@ const Hotel = () => {
           />
         </div>
 
-        <div className="hotel__image h-[280px]  w-[280px] md:h-[300px] md:w-[300px] bg-slate-600 rounded-3xl overflow-hidden">
+        <div className="hotel__image h-[280px]  w-[280px] md:h-[300px] md:w-[300px] bg-[#D7D9CC] rounded-3xl overflow-hidden">
           <Image
             src={CHB3}
             alt="Hotel 1"

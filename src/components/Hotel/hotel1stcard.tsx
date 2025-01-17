@@ -1,10 +1,10 @@
 import React from "react";
-import images from "../../assets/image/food-image/burg.png";
+import images from "../../assets/image/hotel/cookCheef.png";
 import Image from "next/image";
 
 function hotel1stcard() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center py-10 m-4 md:m-8">
+    <div className="flex flex-col md:flex-row items-center bg-[#D7D9CC] justify-center py-10">
       {/* Image Section */}
       <div className="w-full md:w-[900px] lg:w-[1200px] xl:w-[1800px] text-white">
         <Image
