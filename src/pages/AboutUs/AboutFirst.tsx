@@ -1,7 +1,8 @@
 import React from "react";
 import RoundImage from "@/assets/image/blob-image.jpg";
 import Image from "next/image";
-import back from "@/assets/image/blob-image.jpg";
+import back from "@/assets/image/model1.jpg";
+
 
 function AboutFirst() {
   return (
@@ -18,7 +19,7 @@ function AboutFirst() {
         {/* Left Image */}
         <div className="flex justify-center md:justify-end">
           <Image
-            className="w-[200px] sm:rounded-2xl md:w-[250px] mt-10 rounded-full h-[200px] md:h-[400px] object-cover"
+            className="w-[200px]  md:w-[250px] mt-10 rounded-full h-[200px] md:h-[400px] object-cover"
             alt="Chef Image"
             src={RoundImage}
           />
