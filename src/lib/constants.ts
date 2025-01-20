@@ -129,3 +129,25 @@ export const electricalCategoryImages = [
   product9,
   product10,
 ];
+
+import BackpackOutlinedIcon from "@mui/icons-material/BackpackOutlined";
+import AddTaskIcon from "@mui/icons-material/AddTask";
+import AirlineStopsIcon from "@mui/icons-material/AirlineStops";
+
+export const supermarketIconleftContent = [
+  {
+    id: 1,
+    title: "Ecology food",
+    icon: BackpackOutlinedIcon,
+  },
+  {
+    id: 2,
+    title: "Fresh Vegetables",
+    icon: AddTaskIcon,
+  },
+  {
+    id: 3,
+    title: "Livestock Products",
+    icon: AirlineStopsIcon,
+  },
+];
