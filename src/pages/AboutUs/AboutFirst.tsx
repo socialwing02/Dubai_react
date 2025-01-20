@@ -19,10 +19,10 @@ function AboutFirst() {
         {/* Left Image */}
         <div className="flex justify-center md:justify-end">
           <Image
-            className="w-[200px]  md:w-[250px] mt-10 rounded-full h-[200px] md:h-[400px] object-cover"
+            className="w-[200px] md:w-[250px] mt-10 rounded-full lg:rounded-full h-[200px] md:h-[400px] object-cover"
             alt="Chef Image"
             src={RoundImage}
-          />
+           />
         </div>
 
         {/* Center Content */}
@@ -40,7 +40,7 @@ function AboutFirst() {
 
         {/* Right Image */}
         <div className="flex justify-center hidden sm:block md:mt-[300px] md:justify-start">
-          <Image
+          <Image 
             className="w-[200px] md:w-[250px] mt-10  rounded-full h-[200px] md:h-[400px] object-cover"
             alt="Chef Image"
             src={RoundImage}

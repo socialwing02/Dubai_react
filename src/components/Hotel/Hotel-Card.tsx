@@ -2,7 +2,7 @@ import React from "react";
 
 function HotelCard() {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-[#74966F] justify-center py-5  ">
+    <div className="flex flex-col md:flex-row items-center bg-white justify-center py-5  ">
       {/* First Section */}
       <div className="w-full py-8 m-8 md:w-[60ch] bg-[#91A1A4] p-4 rounded-lg shadow-md text-white mb-6 md:mb-0">
         <p>

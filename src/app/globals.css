@@ -179,3 +179,72 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400+700'); */
+/* :root{
+   --bg-color-1: #555555;
+   --bg-color-2: #ffffff;
+   --bg-color-3: #ff8c00;
+      --color-1: #333333;
+      --color-2: #ffffff;
+}
+
+.marco {
+  font-size: 100%; 
+  font-family: 'Open Sans', sans-serif;
+}
+.marco{
+  height: 610px;
+  display: flex;
+  object-fit: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.marco::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 1000px;
+  width: 100%;
+  background: url(../assets/image/travels/air3.jpg) center no-repeat;
+  animation: zoom 15s both;
+  background-size: cover;
+}
+@keyframes zoom {
+  100%  {background-size: 180%;}
+  0%{background-size: 120%; }
+}
+
+img {
+  max-width: 100%;
+}
+.logo {
+  background: var(--bg-color-3);
+  padding: 1rem;
+  max-width: 7rem;
+  margin-bottom: auto;
+  margin-right: auto; 
+}
+.logo__symbol {
+  display: block;
+  margin-right: auto; margin: 0 auto 1rem auto;
+  max-width: 80%;
+}
+.logo__text {
+  font-size: 54px;
+  ;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: .3rem;
+  color: var(--color-2);
+  text-transform: uppercase;
+} */

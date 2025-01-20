@@ -28,7 +28,7 @@ function About1() {
         </div>
       </div>
 
-      {/* Text Content Section */}
+
       <div className="p-6 bg-orange-200 rounded-md h-auto md:h-[550px] md:w-[500px] md:ml-[-230px] flex flex-col justify-between">
         <h1 className="text-2xl md:text-4xl font-semibold text-center md:text-left">
           Innovative Strategies for Tax Prosperity

@@ -4,7 +4,7 @@ import Newimage from "@/assets/image/blob-image.jpg";
 
 function HotelCurve() {
   return (
-    <div className="grid h-[500px]  grid-cols-2">
+    <div className="grid h-[500px] bg-[#D7D9CC]  grid-cols-2">
 {/* <div className="grid ] grid-cols-2"> */}
 <Image
         className="w-[900px] mt-[80px] rounded-r-full h-[350px]"
