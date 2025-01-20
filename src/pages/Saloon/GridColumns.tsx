@@ -2,10 +2,8 @@
 
 import React from "react";
 import Image from "next/image";
-import grid1 from "@/assets/image/grid-1.jpg";
 import grid2 from "@/assets/image/grid-2.jpg";
 import grid3 from "@/assets/image/grid-3.webp";
-import grid4 from "@/assets/image/grid-4.jpg";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
 import { Button } from "@mui/material";
