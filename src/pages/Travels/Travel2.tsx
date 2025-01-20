@@ -1,5 +1,5 @@
 import React from "react";
-import imagee from "@/assets/image/construction-bg.jpg";
+import imagee from "@/assets/image/chef11.png";
 import Image from "next/image";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
