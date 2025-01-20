@@ -4,13 +4,13 @@ import Image from "next/image";
 
 function hotel1stcard() {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-[#D7D9CC] justify-center py-10">
+    <div className="flex flex-col md:flex-row items-center bg-white justify-center py-10">
       {/* Image Section */}
       <div className="w-full md:w-[900px] lg:w-[1200px] xl:w-[1800px] text-white">
         <Image
           src={images}
           alt="Hotel 1"
-          className="h-full w-full object-cover rounded-lg"
+          className="h-[700px] w-[500px] object-cover rounded-lg"
         />
       </div>
       {/* Text Section */}
