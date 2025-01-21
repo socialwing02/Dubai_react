@@ -1,5 +1,5 @@
 import React from "react";
-import bgImg from "@/assets/image/blob-image.jpg";
+import bgImg from "@/assets/image/hero-img.webp";
 import Image from "next/image";
 import { Button } from "../ui/Button";
 

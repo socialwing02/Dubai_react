@@ -1,18 +1,21 @@
-import React from 'react'
-import Travel1 from '@/pages/Travels/travel1'
-import Travel2 from '@/pages/Travels/Travel2'
-import Travel3 from '@/pages/Travels/Travel3'
-import Travel4 from '@/pages/Travels/Travel4'
+import React from "react";
 
-function page() {
+import TravleHero from "@/pages/Travels/TravelsHero";
+import TravelFeature from "@/pages/Travels/TravelFeature";
+import TravelCards from "@/pages/Travels/TravelCards";
+import TravelAbout from "@/pages/Travels/TravelAbout";
+import TravelsCarousel from "@/pages/Travels/TravelsCarousel";
+
+function Travels() {
   return (
-    <div>
-      {/* <Travel1 /> */}
-      <Travel2 />
-      <Travel3 />
-      <Travel4 />
-    </div>
-  )
+    <main>
+      <TravleHero />
+      <TravelCards />
+      <TravelAbout />
+      <TravelFeature />
+      <TravelsCarousel />
+    </main>
+  );
 }
 
-export default page
+export default Travels;

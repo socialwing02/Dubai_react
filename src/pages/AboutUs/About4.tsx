@@ -1,18 +1,29 @@
 import Image from "next/image";
 import React from "react";
-import ogimage from "@/assets/image/blob-image.jpg";
+import ogimage from "@/assets/image/grid-3.webp";
 
 function About4() {
   return (
     <div className="grid items-center grid-cols-3 ">
-
       <div className="grid ml-[130px] gap-4 ">
-        <Image className="w-[250px] object-cover h-[200px]" alt="" src={ogimage} />
-        <Image className="w-[250px] object-cover h-[200px]" alt="" src={ogimage} />
+        <Image
+          className="w-[250px] object-cover h-[200px]"
+          alt=""
+          src={ogimage}
+        />
+        <Image
+          className="w-[250px] object-cover h-[200px]"
+          alt=""
+          src={ogimage}
+        />
       </div>
 
       <div className="">
-        <Image className="w-[200px] object-cover h-[300px]" alt="" src={ogimage} />
+        <Image
+          className="w-[200px] object-cover h-[300px]"
+          alt=""
+          src={ogimage}
+        />
       </div>
 
       <div className="ml-[-200px] w-[550px]">
@@ -23,7 +34,7 @@ function About4() {
           ullam cumque incidunt consequatur molestias eius illo mollitia sint
           vel aut voluptatum?
         </p>
-        <br />      
+        <br />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
           eligendi nihil, obcaecati quo ea iure reprehenderit! Deserunt
@@ -31,7 +42,6 @@ function About4() {
           ipsa, architecto nostrum debitis asperiores?
         </p>
       </div>
-      
     </div>
   );
 }

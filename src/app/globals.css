@@ -52,14 +52,6 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20vw), 0 100%);
 }
 
-.blob-shape {
-  border-radius: 30% 70% 70% 30% / 31% 42% 58% 69%;
-  background: url("../assets/image/blob-image.jpg");
-  border: 3px solid rgb(97, 88, 88);
-  width: 500px;
-  height: 500px;
-}
-
 .grid-columns {
   width: min(90%, 90vw);
   margin-inline: auto;
@@ -202,77 +194,60 @@ body {
   grid-row: 1 / 3;
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400+700'); */
-/* :root{
-   --bg-color-1: #555555;
-   --bg-color-2: #ffffff;
-   --bg-color-3: #ff8c00;
-      --color-1: #333333;
-      --color-2: #ffffff;
+:root {
+  --bg-color-1: #555555;
+  --bg-color-2: #ffffff;
+  --bg-color-3: #ff8c00;
+  --color-1: #333333;
+  --color-2: #ffffff;
 }
 
 .marco {
-  font-size: 100%; 
-  font-family: 'Open Sans', sans-serif;
-}
-.marco{
-  height: 610px;
+  height: 700px;
   display: flex;
   object-fit: cover;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  box-sizing: border-box;
   position: relative;
 }
 .marco::after {
   content: "";
-  position: absolute;
   z-index: -1;
   display: block;
   height: 1000px;
   width: 100%;
-  background: url(../assets/image/travels/air3.jpg) center no-repeat;
+  background: url(../assets/image/travels/car1.jpg) center no-repeat;
   animation: zoom 15s both;
   background-size: cover;
+  filter: brightness(0.4);
 }
 @keyframes zoom {
-  100%  {background-size: 180%;}
-  0%{background-size: 120%; }
+  100% {
+    background-size: 180%;
+  }
+  0% {
+    background-size: 120%;
+  }
 }
 
-img {
-  max-width: 100%;
-}
 .logo {
   background: var(--bg-color-3);
   padding: 1rem;
   max-width: 7rem;
   margin-bottom: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 .logo__symbol {
   display: block;
-  margin-right: auto; margin: 0 auto 1rem auto;
+  margin-right: auto;
+  margin: 0 auto 1rem auto;
   max-width: 80%;
 }
 .logo__text {
   font-size: 54px;
-  ;
   line-height: 1.2;
   text-align: center;
   font-weight: normal;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   color: var(--color-2);
   text-transform: uppercase;
-} */
+}

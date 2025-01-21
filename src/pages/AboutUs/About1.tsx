@@ -1,12 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import person from "@/assets/image/chef11.png";
+import person from "@/assets/image/grid-2.jpg";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 
 function About1() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center p-4 md:p-8">
- 
       <div className="flex justify-center">
         <Image
           className="rounded-md h-[400px] md:ml-[80px] md:h-[550px] w-[400px] md:w-[300px] object-cover"
@@ -14,7 +13,6 @@ function About1() {
           alt="Person"
         />
       </div>
-
 
       <div className="flex flex-col md:ml-[-48px] items-center md:items-start">
         <Image
@@ -27,7 +25,6 @@ function About1() {
           <p className="text-sm md:text-xl">Years of Experience</p>
         </div>
       </div>
-
 
       <div className="p-6 bg-orange-200 rounded-md h-auto md:h-[550px] md:w-[500px] md:ml-[-230px] flex flex-col justify-between">
         <h1 className="text-2xl md:text-4xl font-semibold text-center md:text-left">

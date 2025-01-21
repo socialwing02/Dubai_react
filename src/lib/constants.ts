@@ -286,3 +286,64 @@ export const constructionServiceContent = [
       "We provide expert project management to ensure smooth coordination and timely completion of projects. Our approach handles budgeting, scheduling, and oversight, ensuring a hassle-free experience for our clients from start to finish.",
   },
 ];
+
+export const hotelCardcontent = [
+  {
+    title: "Fresh Ingredients, Flawless Taste",
+    description:
+      "Our dishes are crafted with the freshest, highest-quality ingredients to deliver flavors that captivate every palate. From locally sourced produce to expertly prepared meats, every bite is a testament to our dedication to excellence.",
+  },
+  {
+    title: "Unique Culinary Creations",
+    description:
+      "We take pride in offering a variety of unique dishes that blend traditional flavors with modern innovation. Whether it's a signature dish or a daily special, each creation is thoughtfully designed to surprise and delight.",
+  },
+  {
+    title: "Exceptional Ambiance, Unforgettable Dining",
+    description:
+      "Experience a welcoming atmosphere that complements our carefully curated menu. From cozy settings to vibrant spaces, our environment enhances every dining experience, making each visit special.",
+  },
+  {
+    title: "Crafting Moments, One Meal at a Time",
+    description:
+      "Every dish is more than just a meal—it's a moment to be cherished. Our chefs create memorable experiences that bring people together, fostering connections through shared meals and unforgettable flavors.",
+  },
+  {
+    title: "Sustainability on Your Plate",
+    description:
+      "We believe in nourishing not just the palate but also the environment. Our commitment to sustainable practices ensures that every dish is eco-friendly while delivering exceptional taste.",
+  },
+  {
+    title: "Customized Dining Experiences",
+    description:
+      "Whether it's a private event, a group gathering, or a romantic dinner, we offer personalized experiences tailored to your preferences. Every event is crafted to provide a seamless and memorable experience",
+  },
+];
+
+export const travlListContent = [
+  "Handpicked Destinations",
+  "Customized Itineraries",
+  "Expert Travel Guides",
+  "Exclusive Travel Deals",
+  "Diverse Travel Styles",
+  "24/7 Customer Support",
+];
+
+import carousel_cartoon1 from "@/assets/image/travels/car1-cartoon.webp";
+import carousel_cartoon2 from "@/assets/image/travels/car2-cartoon.webp";
+import carousel_cartoon3 from "@/assets/image/travels/tempo-cartoon.webp";
+
+export const travelCarouselContent = [
+  {
+    img: carousel_cartoon1,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor orem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+  },
+  {
+    img: carousel_cartoon2,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor orem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+  },
+  {
+    img: carousel_cartoon3,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor orem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+  },
+];
