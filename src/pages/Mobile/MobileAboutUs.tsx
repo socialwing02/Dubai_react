@@ -33,53 +33,12 @@ export default function MobileAboutUs() {
         </div>
       </div>
 
-      <div className="relative">
-        <Image
-          src={accessoriesImg}
-          alt=""
-          className="w-[600px] h-[500px] object-cover rounded-lg"
-          priority
-        />
-        <div className="absolute top-6 -right-[200px] grid gap-8">
-          <div className="shadow-custom p-3 rounded-lg bg-white  w-[min(350px,90vw)] flex items-center  gap-2">
-            <span>
-              <AppRegistrationIcon fontSize="large" sx={{ color: "brown" }} />
-            </span>
-
-            <div className="">
-              <h5 className="font-semibold">
-                Lorem ipsum, dolor sit amet consectetur
-              </h5>
-              <p>Lorem ipsum dolor sit amet consectetur </p>
-            </div>
-          </div>
-
-          <div className="shadow-custom p-3 rounded-lg bg-white  w-[min(350px,90vw)] flex items-center gap-2">
-            <span>
-              <AppRegistrationIcon fontSize="large" sx={{ color: "brown" }} />
-            </span>
-
-            <div className="">
-              <h5 className="font-semibold">
-                Lorem ipsum, dolor sit amet consectetur
-              </h5>
-              <p>Lorem ipsum dolor sit amet consectetur </p>
-            </div>
-          </div>
-          <div className="shadow-custom p-3 rounded-lg bg-white  w-[min(350px,90vw)] flex items-center gap-2">
-            <span>
-              <AppRegistrationIcon fontSize="large" sx={{ color: "brown" }} />
-            </span>
-
-            <div className="">
-              <h5 className="font-semibold">
-                Lorem ipsum, dolor sit amet consectetur
-              </h5>
-              <p>Lorem ipsum dolor sit amet consectetur </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Image
+        src={accessoriesImg}
+        alt=""
+        className="w-[600px] h-[500px] object-cover rounded-lg"
+        priority
+      />
     </section>
   );
 }

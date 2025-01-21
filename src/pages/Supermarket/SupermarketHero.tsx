@@ -1,5 +1,5 @@
 import React from "react";
-import bgImg from "@/assets/image/supermarket/supermarket-bg.webp";
+import bgImg from "@/assets/image/supermarket/super-market-bg.webp";
 import Image from "next/image";
 
 export default function SupermarketHero() {
@@ -13,13 +13,16 @@ export default function SupermarketHero() {
         className="absolute object-cover top-0 filter brightness-50 -z-[1] "
       />
 
-      <div className="text-white w-[min(600px,90vw)]  ">
-        <h1 className="text-[clamp(2rem,2.5vw,4rem)]">Enjoy Shopping</h1>
+      <div className="text-white w-[min(600px,90vw)] text-center ">
+        <h1 className="text-[clamp(2rem,2.5vw,4rem)] leading-[1.3]">
+          Fresh, Affordable, and Convenient Shopping
+        </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem,
-          accusantium similique? Optio, nihil. Ducimus aliquid, explicabo
-          aperiam omnis ipsa ut tempore recusandae eum cupiditate, voluptate
-          nisi assumenda facilis sit quibusdam!
+          Discover a variety of high-quality products that cater to your every
+          need. From fresh fruits and vegetables to everyday groceries and
+          gourmet selections, we provide a comprehensive shopping experience.
+          Enjoy unbeatable convenience, personalized service, and great value,
+          ensuring your visit is both enjoyable and efficient.
         </p>
       </div>
     </section>
