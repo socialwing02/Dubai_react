@@ -1,16 +1,14 @@
 import React from "react";
 import imagee from "@/assets/image/chef11.png";
 import Image from "next/image";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+// import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+// import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
-function Travel2() {
+function Travel5() {
   return (
     <div className="m-10 grid grid-cols-2">
-      <Image src={imagee} className="w-[500px] h-[500px]" alt="" />
-
-      <div className="ml-[-120px] ">
-        <h1 className="text-2xl">
+      <div className=" ">
+        <h1 className="text-3xl">
           Welcome to <b className="text-green-600" /> Tourist
         </h1>
         <br />
@@ -27,33 +25,6 @@ function Travel2() {
           hic, minus iste enim vitae consequuntur tempore animi. Quasi aperiam
           adipisci ad?
         </p>
-
-        <div className="grid grid-cols-2 gap-2 mt-10">
-          <div className="flex ">
-            <ArrowForwardIcon fontSize="small" />
-            <h4 className="">First Class Flights</h4>
-          </div>
-          <div className="flex ">
-            <ArrowForwardIcon fontSize="small" />
-            <h4 className="">First Class Flights</h4>
-          </div>
-          <div className="flex ">
-            <ArrowForwardIcon fontSize="small" />
-            <h4 className="">First Class Flights</h4>
-          </div>
-          <div className="flex ">
-            <ArrowForwardIcon fontSize="small" />
-            <h4 className="">First Class Flights</h4>
-          </div>
-          <div className="flex ">
-            <ArrowForwardIcon fontSize="small" />
-            <h4 className="">First Class Flights</h4>
-          </div>
-          <div className="flex ">
-            <ArrowForwardIcon fontSize="small" />
-            <h4 className="">First Class Flights</h4>
-          </div>
-        </div>
         <p className="mt-8">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero unde
           nam ex dicta fugit quidem dolorem, magni maxime magnam delectus quos
@@ -64,8 +35,9 @@ function Travel2() {
           tempore similique? Assumenda corporis cupiditate at! Porro.
         </p>
       </div>
+      <Image src={imagee} className="w-[500px] h-[500px] ml-[90px] mb-10" alt="" />
     </div>
   );
 }
 
-export default Travel2;
+export default Travel5;

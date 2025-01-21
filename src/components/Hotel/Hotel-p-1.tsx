@@ -11,7 +11,7 @@ const Hotel = () => {
     <div className="bg-white ">
       {/* Main Section */}
       <div className="hotel__container h-[800px]  bg-[#D7D9CC]  flex flex-col lg:flex-row justify-center items-center lg:items-start px-4 lg:px-0">
-        <div className="hotel__info mt-[100] lg:mt-21 rounded-lg shadow-md p-6 lg:p-8 bg-white text-black h-auto lg:h-[250px] z-10 w-full lg:w-[400px] mb-8 lg:mb-0 lg:mr-[-100px]">
+        <div className="hotel__info md:mt-[100] lg:mt-21 rounded-lg shadow-md p-6 lg:p-8 bg-white text-black h-auto lg:h-[250px] z-10 w-full lg:w-[400px] mb-8 lg:mb-0 lg:mr-[-100px]">
           <h2 className="hotel__name text-xl lg:text-3xl mb-4">
             HEALTHY EATING
           </h2>
@@ -19,7 +19,7 @@ const Hotel = () => {
             Delicious Dinners in Under 30 Minutes ...
           </h1>
         </div>
-        <div className="hotel__image h-auto mt-[200px] w-full max-w-[300px] md:max-w-[400px] lg:max-w-[500px]">
+        <div className="hotel__image h-auto md:mt-[200px]  w-[300px] md:w-[800px] lg:max-w-[800px]">
           <Image
             src={girl}
             alt="Hotel 1"

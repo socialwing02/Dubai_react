@@ -184,7 +184,7 @@ body {
 
 
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400+700'); */
-/* :root{
+:root{
    --bg-color-1: #555555;
    --bg-color-2: #ffffff;
    --bg-color-3: #ff8c00;
@@ -192,29 +192,29 @@ body {
       --color-2: #ffffff;
 }
 
-.marco {
+/* .marco {
   font-size: 100%; 
   font-family: 'Open Sans', sans-serif;
-}
+} */
 .marco{
-  height: 610px;
+  height: 700px;
   display: flex;
   object-fit: cover;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
+  /* justify-content: center;
+  align-items: center; */
+  /* padding: 2rem;  */
   box-sizing: border-box;
   position: relative;
 }
 .marco::after {
   content: "";
-  position: absolute;
+
   z-index: -1;
   display: block;
   height: 1000px;
   width: 100%;
-  background: url(../assets/image/travels/air3.jpg) center no-repeat;
+  background: url(../assets/image/travels/car1.jpg) center no-repeat;
   animation: zoom 15s both;
   background-size: cover;
 }
@@ -223,9 +223,9 @@ body {
   0%{background-size: 120%; }
 }
 
-img {
+/* img {
   max-width: 100%;
-}
+} */
 .logo {
   background: var(--bg-color-3);
   padding: 1rem;
@@ -247,4 +247,4 @@ img {
   letter-spacing: .3rem;
   color: var(--color-2);
   text-transform: uppercase;
-} */
+}

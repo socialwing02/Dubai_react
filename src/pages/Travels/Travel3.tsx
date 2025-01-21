@@ -10,7 +10,7 @@ function Travel3() {
     < div className="grid mb-8 gap-4 justify-center m-8 max-w-[1200px] mx-auto grid-cols-3">
       {Card.map((item) => (
       <div key={item.title} className=" w-[320px] ml-2  gap-9">
-          <div  className="max-w-sm p-6  hover:text-white bg-white border border-gray-200 rounded-lg shadow hover:bg-blue-500 dark:bg-gray-800 dark:border-gray-700 group">
+          <div className="max-w-sm p-6  hover:text-white bg-white border border-gray-200 rounded-lg shadow hover:bg-blue-500 dark:bg-gray-800 dark:border-gray-700 group">
           <item.icon
             fontSize="large"
             className="group-hover:text-white transition-colors duration-300"

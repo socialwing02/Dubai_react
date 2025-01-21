@@ -1,10 +1,44 @@
+import { title } from "process";
 import React from "react";
+
+const Card = [
+  {
+    title: "Sample Headline",
+    description:
+      "Justo donec enim diam vulputate ut pharetra. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Venenatis lectusmagna fringilla urna porttitor rhoncus dolor.",
+  },
+  {
+    title: "Sample Headline",
+    description:
+      "Justo donec enim diam vulputate ut pharetra. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Venenatis lectusmagna fringilla urna porttitor rhoncus dolor.",
+  },
+  {
+    title: "Sample Headline",
+    description:
+      "Justo donec enim diam vulputate ut pharetra. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Venenatis lectusmagna fringilla urna porttitor rhoncus dolor.",
+  },
+  {
+    title: "Sample Headline",
+    description:
+      "Justo donec enim diam vulputate ut pharetra. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Venenatis lectusmagna fringilla urna porttitor rhoncus dolor.",
+  },
+  {
+    title: "Sample Headline",
+    description:
+      "Justo donec enim diam vulputate ut pharetra. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Venenatis lectusmagna fringilla urna porttitor rhoncus dolor.",
+  },
+  {
+    title: "Sample Headline",
+    description:
+      "Justo donec enim diam vulputate ut pharetra. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Venenatis lectusmagna fringilla urna porttitor rhoncus dolor.",
+  },
+];
 
 function HotelCard() {
   return (
-    <div className="flex flex-col md:flex-row items-center bg-white justify-center py-5  ">
+    <div className="md:flex  bg-white justify-center py-5  ">
       {/* First Section */}
-      <div className="w-full py-8 m-8 md:w-[60ch] bg-[#91A1A4] p-4 rounded-lg shadow-md text-white mb-6 md:mb-0">
+      <div className="w-[50ch] py-8 m-8 md:w-[70ch] bg-[#91A1A4] p-4 rounded-lg shadow-md text-white  md:mb-0">
         <p>
           Article evident arrived express highest men did boy. Mistress sensible
           entirely am so. Quick can manor smart money hopes worth too. Comfort
@@ -23,8 +57,8 @@ function HotelCard() {
       </div>
 
       {/* Second Section */}
-      <div className="w-full md:w-auto md:m-8 bg-white rounded-lg text-gray-800">
-        <div className=" py-8 md:m-6">
+      <div className="w-full  md:w-auto md:m-8 bg-white rounded-lg text-gray-800">
+        <div className=" px-8 items-center md:m-6">
           <h2 className="text-3xl md:text-5xl mb-4 md:mb-5 font-extrabold text-red">
             Weight loss nutrition plan
           </h2>
@@ -36,24 +70,16 @@ function HotelCard() {
         </div>
 
         {/* Nested Flex Section */}
-        <div className="flex items-center m-8 gap-[120px] h-[300px] flex-col md:flex-row">
-          <div className="shadow-md h-auto md:h-[200px] w-full md:w-[360px] lg:w-[400px] bg-gray-200 rounded-lg p-4 mb-4 md:mb-0 md:mr-4">
-            <h3>Sample Headline</h3>
-            <p>
-              Justo donec enim diam vulputate ut pharetra. Amet nisl suscipit
-              adipiscing bibendum est ultricies integer quis. Venenatis lectus
-              magna fringilla urna porttitor rhoncus dolor.
-            </p>
-          </div>
-
-          <div className="shadow-md h-auto md:h-[200px] w-full md:w-[360px] lg:w-[400px] bg-gray-200 rounded-lg p-4">
-            <h3>Sample Headline</h3>
-            <p>
-              Justo donec enim diam vulputate ut pharetra. Amet nisl suscipit
-              adipiscing bibendum est ultricies integer quis. Venenatis lectus
-              magna fringilla urna porttitor rhoncus dolor.
-            </p>
-          </div>
+        <div className="grid items-center m-2 gap-[40px]  md:grid-cols-3  ">
+          {Card.map((item) => (
+            <div
+              key={item.title}
+              className="shadow-md h-auto md:h-[180px] w-full  lg:w-[300px] bg-gray-200 rounded-lg p-2"
+            >
+              <h3 className="text-xl p-1 ">{item.title}</h3>
+              <p className="p-1">{item.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

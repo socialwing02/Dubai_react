@@ -10,7 +10,10 @@ export default function ConstructionServices() {
       </h3>
       <div className="flex justify-center gap-8">
         {Array.from({ length: 3 }).map((_, index) => (
-          <div className="w-[420px] shadow-lg rounded-lg overflow-hidden">
+          <div
+            key={index}
+            className="w-[420px] shadow-lg rounded-lg overflow-hidden"
+          >
             <Image
               key={"index" + index}
               src={cardImg}
