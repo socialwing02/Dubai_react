@@ -1,20 +1,18 @@
 import React from "react";
 import AdsClickIcon from "@mui/icons-material/AdsClick";
+import { supermarketCardsContent } from "@/lib/constants";
 
 export default function SupermarketCards() {
   return (
     <section className="flex justify-center gap-12 my-16">
-      {Array.from({ length: 4 }).map((_, index) => (
+      {supermarketCardsContent.map((item) => (
         <div
-          className="py-10 px-6  rounded-2xl w-[300px] flex flex-col items-center gap-2 shadow-custom"
-          key={index}
+          className="py-10 px-6 text-center  rounded-2xl w-[300px] flex flex-col items-center gap-2 shadow-custom"
+          key={item.title}
         >
           <AdsClickIcon />
-          <h4 className="text-xl font-semibold">Quality Products</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad et
-            repudiandae corrupti doloribus. Magni perferendis quasi est alias
-          </p>
+          <h4 className="text-xl font-semibold">{item.title}</h4>
+          <p>{item.content}</p>
         </div>
       ))}
     </section>

@@ -23,37 +23,55 @@ export const navlist: NavlistType[] = [
   { name: "Contact Us", path: "/contact" },
 ];
 
-import BookmarkAddedOutlinedIcon from "@mui/icons-material/BookmarkAddedOutlined";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import RestaurantMenuIcon from "@mui/icons-material/RestaurantMenu";
+import ConstructionIcon from "@mui/icons-material/Construction";
+import AirportShuttleIcon from "@mui/icons-material/AirportShuttle";
+import ElectricalServicesIcon from "@mui/icons-material/ElectricalServices";
+import ContentCutIcon from "@mui/icons-material/ContentCut";
+import MobileFriendlyIcon from "@mui/icons-material/MobileFriendly";
+import ChairIcon from "@mui/icons-material/Chair";
+
 export const serviceCardContent: ServiceCard[] = [
   {
     id: 1,
-    title: "Saloon",
-    icon: BookmarkAddedOutlinedIcon,
+    title: "Super market",
+    icon: ShoppingCartIcon,
   },
   {
     id: 2,
     title: "Hotel",
-    icon: BookmarkAddedOutlinedIcon,
+    icon: RestaurantMenuIcon,
   },
   {
     id: 3,
-    title: "SuperMarket",
-    icon: BookmarkAddedOutlinedIcon,
+    title: "Construction",
+    icon: ConstructionIcon,
   },
   {
     id: 4,
     title: "Travels",
-    icon: BookmarkAddedOutlinedIcon,
+    icon: AirportShuttleIcon,
   },
   {
     id: 5,
-    title: "Travels",
-    icon: BookmarkAddedOutlinedIcon,
+    title: "Electrical",
+    icon: ElectricalServicesIcon,
   },
   {
     id: 6,
-    title: "Travels",
-    icon: BookmarkAddedOutlinedIcon,
+    title: "Saloon",
+    icon: ContentCutIcon,
+  },
+  {
+    id: 7,
+    title: "Mobile",
+    icon: MobileFriendlyIcon,
+  },
+  {
+    id: 8,
+    title: "Home Appliances",
+    icon: ChairIcon,
   },
 ];
 
@@ -133,21 +151,199 @@ export const electricalCategoryImages = [
 import BackpackOutlinedIcon from "@mui/icons-material/BackpackOutlined";
 import AddTaskIcon from "@mui/icons-material/AddTask";
 import AirlineStopsIcon from "@mui/icons-material/AirlineStops";
+import GrassIcon from "@mui/icons-material/Grass";
 
 export const supermarketIconleftContent = [
   {
     id: 1,
     title: "Ecology food",
-    icon: BackpackOutlinedIcon,
+    icon: RamenDiningOutlined,
   },
   {
     id: 2,
     title: "Fresh Vegetables",
-    icon: AddTaskIcon,
+    icon: GrassIcon,
   },
   {
     id: 3,
     title: "Livestock Products",
+    icon: InventoryOutlined,
+  },
+];
+
+export const supermarketIconRightContent = [
+  {
+    id: 1,
+    title: "Organic Groceries",
+    icon: BackpackOutlinedIcon,
+  },
+  {
+    id: 2,
+    title: "Herbs & Spices",
+    icon: AddTaskIcon,
+  },
+  {
+    id: 3,
+    title: "Baked Goods",
     icon: AirlineStopsIcon,
+  },
+];
+
+import samsung from "@/assets/image/mobile/logo/samsung.png";
+import iphone from "@/assets/image/mobile/logo/iphone.png";
+import nokia from "@/assets/image/mobile/logo/nokia.png";
+import realme from "@/assets/image/mobile/logo/realme.png";
+import redmi from "@/assets/image/mobile/logo/redmi.png";
+import { InventoryOutlined, RamenDiningOutlined } from "@mui/icons-material";
+
+export const mobileLogos = [samsung, iphone, nokia, realme, redmi];
+
+export const chooseUsContent = [
+  {
+    title: "Exceptional Shopping Experience",
+    content:
+      "Explore a well-stocked supermarket offering everything from fresh produce and groceries to household essentials, ensuring a convenient and satisfying shopping trip.",
+  },
+  {
+    title: "Luxury Beauty and Grooming Services",
+    content:
+      "Treat yourself to premium salon services, including hairstyling, facials, and grooming, designed to enhance your beauty and confidence.",
+  },
+  {
+    title: "Comprehensive Travel Solutions",
+    content:
+      "Plan your perfect getaway with ease through our reliable travel services, offering ticket booking, itinerary planning, and personalized travel packages.",
+  },
+  {
+    title: "Expert Construction and Building Services",
+    content:
+      "Bring your construction projects to life with our top-notch services, featuring innovative designs, durable materials, and skilled craftsmanship.",
+  },
+  {
+    title: "Flavorful Dining Experiences",
+    content:
+      "Delight in a variety of delicious dishes at our restaurant, offering a menu that caters to every taste, from local favorites to international cuisine.",
+  },
+  {
+    title: "Versatile Electrical Solutions",
+    content:
+      "Find high-quality electrical equipment and products, including wiring, lighting, and fixtures, to meet all your home and industrial needs.",
+  },
+];
+
+export const homefeaturesList = [
+  "Personalized approach to meet individual needs",
+  "Transparent communication at every stage",
+  "Timely project execution and delivery",
+  "Focus on quality and continuous improvement",
+  "Building long-term partnerships for mutual growth",
+];
+
+export const supermarketCardsContent = [
+  {
+    title: "Fresh Produce",
+    content:
+      "Farm-fresh fruits and vegetables delivered straight to your doorstep. Packed with nutrients and flavor.",
+  },
+  {
+    title: "Pantry Essentials",
+    content:
+      "Stock up on everyday staples like rice, pasta, spices, and more. Always available, always fresh.",
+  },
+  {
+    title: "Dairy & Eggs",
+    content:
+      "High-quality dairy products and fresh eggs from local farms, ensuring the best taste and nutrition.",
+  },
+  {
+    title: "Special Offers",
+    content:
+      "Enjoy exclusive discounts and deals on your favorite grocery items. Save while you shop",
+  },
+];
+
+import serviceImg1 from "@/assets/image/construction/service-img1.webp";
+import serviceImg2 from "@/assets/image/construction/service-img2.webp";
+import serviceImg3 from "@/assets/image/construction/service-img3.webp";
+
+export const constructionServiceContent = [
+  {
+    title: "Design and Development",
+    img: serviceImg1,
+    content:
+      "We craft innovative, tailored designs that meet the specific needs of every project. By combining creativity with functionality, we bring visions to life and ensure every detail is thoughtfully executed to deliver exceptional results.",
+  },
+  {
+    title: "Construction Services",
+    img: serviceImg2,
+    content:
+      "Our seamless construction solutions cover everything from planning to final execution, with a focus on quality and precision. We manage projects efficiently, ensuring they are completed safely, on time, and to the highest standards.",
+  },
+  {
+    title: "Project Management",
+    img: serviceImg3,
+    content:
+      "We provide expert project management to ensure smooth coordination and timely completion of projects. Our approach handles budgeting, scheduling, and oversight, ensuring a hassle-free experience for our clients from start to finish.",
+  },
+];
+
+export const hotelCardcontent = [
+  {
+    title: "Fresh Ingredients, Flawless Taste",
+    description:
+      "Our dishes are crafted with the freshest, highest-quality ingredients to deliver flavors that captivate every palate. From locally sourced produce to expertly prepared meats, every bite is a testament to our dedication to excellence.",
+  },
+  {
+    title: "Unique Culinary Creations",
+    description:
+      "We take pride in offering a variety of unique dishes that blend traditional flavors with modern innovation. Whether it's a signature dish or a daily special, each creation is thoughtfully designed to surprise and delight.",
+  },
+  {
+    title: "Exceptional Ambiance, Unforgettable Dining",
+    description:
+      "Experience a welcoming atmosphere that complements our carefully curated menu. From cozy settings to vibrant spaces, our environment enhances every dining experience, making each visit special.",
+  },
+  {
+    title: "Crafting Moments, One Meal at a Time",
+    description:
+      "Every dish is more than just a meal—it's a moment to be cherished. Our chefs create memorable experiences that bring people together, fostering connections through shared meals and unforgettable flavors.",
+  },
+  {
+    title: "Sustainability on Your Plate",
+    description:
+      "We believe in nourishing not just the palate but also the environment. Our commitment to sustainable practices ensures that every dish is eco-friendly while delivering exceptional taste.",
+  },
+  {
+    title: "Customized Dining Experiences",
+    description:
+      "Whether it's a private event, a group gathering, or a romantic dinner, we offer personalized experiences tailored to your preferences. Every event is crafted to provide a seamless and memorable experience",
+  },
+];
+
+export const travlListContent = [
+  "Handpicked Destinations",
+  "Customized Itineraries",
+  "Expert Travel Guides",
+  "Exclusive Travel Deals",
+  "Diverse Travel Styles",
+  "24/7 Customer Support",
+];
+
+import carousel_cartoon1 from "@/assets/image/travels/car1-cartoon.webp";
+import carousel_cartoon2 from "@/assets/image/travels/car2-cartoon.webp";
+import carousel_cartoon3 from "@/assets/image/travels/tempo-cartoon.webp";
+
+export const travelCarouselContent = [
+  {
+    img: carousel_cartoon1,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor orem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+  },
+  {
+    img: carousel_cartoon2,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor orem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
+  },
+  {
+    img: carousel_cartoon3,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor orem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor",
   },
 ];

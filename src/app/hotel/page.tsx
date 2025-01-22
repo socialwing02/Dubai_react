@@ -1,17 +1,17 @@
 import React from "react";
-import Hotel from "../../components/Hotel/Hotel-p-1";
-import HotelCard from "../../components/Hotel/Hotel-Card";
-import Hotel1stcard from "../../components/Hotel/hotel1stcard";
-import Standchef from "../../components/Hotel/Standchef";
-import HotelCurve from "@/components/Hotel/HotelCurve";
+import HotelHero from "@/components/Hotel/HotelHero";
+import HotelFood from "@/components/Hotel/HotelFood";
+import HotelCard from "@/components/Hotel/HotelCard";
+import Standchef from "@/components/Hotel/Standchef";
+import HotelCurveImage from "@/components/Hotel/HotelCurveImage";
 
 export default function page() {
   return (
     <div>
-      <Hotel1stcard />
-      <Hotel />
+      <HotelHero />
+      <HotelFood />
       <HotelCard />
-      <HotelCurve />
+      <HotelCurveImage />
       {/* <Standchef /> */}
     </div>
   );

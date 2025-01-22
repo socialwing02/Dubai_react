@@ -1,10 +1,11 @@
 import HomeChooseUs from "@/components/Home/HomeChooseUs";
-import HomeDetails from "@/components/Home/HomeDetails";
-import HomeFeature from "@/components/Home/HomeFeature";
+import HomeAboutUs from "@/components/Home/HomeAbout";
+
 import HomeHero from "@/components/Home/HomeHero";
 import HomeServices from "@/components/Home/HomeServices";
 import Testimonial from "@/components/Home/Testimonial";
 import React from "react";
+import HomeFeatures from "@/components/Home/HomeFeatures";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
       <HomeHero />
       <HomeServices />
       <HomeChooseUs />
-      <HomeFeature />
-      <HomeDetails />
+      <HomeFeatures />
+      <HomeAboutUs />
       <Testimonial />
     </main>
   );

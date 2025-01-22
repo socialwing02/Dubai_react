@@ -15,14 +15,17 @@ export default function ConstructionHero() {
       />
 
       <div className="w-[700px]  ml-[8rem] text-white grid  gap-4">
-        <h1 className="text-[clamp(2rem,2vw,4rem)] uppercase font-bold">
-          We build your dream{" "}
+        <h1 className="text-[clamp(2rem,2vw,4rem)] uppercase font-bold text-balance">
+          Building Dreams Crafting Excellence
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,
-          consectetur. Repellendus ea placeat necessitatibus alias saepe eius
-          dolorum quas excepturi? Fugiat, iure? Incidunt, in labore. Cum sunt
-          voluptatum sed molestiae.
+          We bring visions to life with precision, dedication, and a commitment
+          to quality. From residential homes to large-scale commercial projects,
+          every structure is crafted to stand the test of time. Our focus on
+          innovation, sustainability, and detail ensures exceptional results
+          tailored to meet diverse needs. Whether it’s designing, building, or
+          renovating, we deliver solutions that exceed expectations, creating
+          spaces that inspire and endure.
         </p>
 
         <div className="flex gap-6">
